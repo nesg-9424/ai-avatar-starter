@@ -115,7 +115,7 @@ const Home = () => {
           </div>
           <div className="header-subtitle">
             <h2>
-              Turn me into anyone you want! Make sure you refer to me as "JemjemB" in the prompt
+              Turn me into anyone you want! Make sure you refer to me as "Louis" in the prompt
             </h2>
           </div>
           {/* Add prompt container here */}
