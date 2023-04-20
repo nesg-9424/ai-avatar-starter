@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
-import logo007 from '../assets/logo-over-white.png';
 
 const Home = () => {
   // Don't retry more than 20 times
@@ -107,7 +106,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>AI Avatar Generator | buildspace</title>
+        <title>y00tplicator</title>
       </Head>
       <div className="container">
         <div className="header">
