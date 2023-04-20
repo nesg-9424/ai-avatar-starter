@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import logo007 from '../assets/logo-over-white.png';
 
 const Home = () => {
   // Don't retry more than 20 times
@@ -110,6 +111,7 @@ const Home = () => {
       </Head>
       <div className="container">
         <div className="header">
+        <div className="background-image"></div>
           <div className="header-title">
             <h1>y00tplicator</h1>
           </div>
@@ -148,18 +150,6 @@ const Home = () => {
             <p>{finalPrompt}</p>
           </div>
         )}
-      </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-avatar"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
       </div>
     </div>
   );

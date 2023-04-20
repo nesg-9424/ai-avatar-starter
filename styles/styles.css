@@ -19,6 +19,15 @@ body {
     position: relative;
 }
 
+.background-image {
+    background-image: url('../assets/00-logo-banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 33.33%;
+    width: 100%;
+  }
+
 .container {
     display: flex;
     flex: 0 0 auto;
@@ -48,6 +57,7 @@ body {
 
 .header-title h1 {
     width: 100%;
+    font-family: monospace;
     font-weight: 700;
     font-size: 72px;
     letter-spacing: -4px;
