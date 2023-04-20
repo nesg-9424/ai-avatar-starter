@@ -111,11 +111,11 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Funny photo generator</h1>
+            <h1>y00tplicator</h1>
           </div>
           <div className="header-subtitle">
             <h2>
-              Turn me into anyone you want! Make sure you refer to me as "Louis" in the prompt
+              Turn me into anyone you want! Make sure you refer to me as "Green y00t" in the prompt
             </h2>
           </div>
           {/* Add prompt container here */}
